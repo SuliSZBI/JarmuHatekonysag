@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Jármű hatékonyság",
+  "main": "./src/server.mjs",
+  "scripts": {
+    "dev": "node ./src/server.mjs"
+  },
+  "keywords": [],
+  "author": "Balatonyi Martin, Nagy Botond, Szász Patrik",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.2",
+    "serpapi": "^2.2.1"
+  }
+}
