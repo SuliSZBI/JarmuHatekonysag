@@ -1,0 +1,71 @@
+.geolocation-container {
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.geolocation-container h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.geolocation-container p {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.geolocation-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.geolocation-container label {
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #444;
+}
+
+.geolocation-container input,
+.geolocation-container select {
+  padding: 10px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.geolocation-container input:focus,
+.geolocation-container select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+.geolocation-container button {
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.geolocation-container button:hover {
+  background-color: #0056b3;
+}
+
+.geolocation-container button:active {
+  transform: scale(0.98);
+}
